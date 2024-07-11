@@ -1,5 +1,5 @@
 ###############################
-###   OBJETOS (VARI¡VEIS)   ###
+###   OBJETOS (VARI√ÅVEIS)   ###
 ###############################
 
 m <- 4 * 7
@@ -9,10 +9,10 @@ m = 4 * 7
 print(m)
 m
 
-# N„o usar palavras reservadas:
+# N√£o usar palavras reservadas:
 # break, else, for, function, IF, in, next, repeat, while, FALSE, Inf, 
 # NA, NaN, NULL,TRUE ...
-# N„o colocar acentuaÁıes.
+# N√£o colocar acentua√ß√µes.
 
 
 in <- 3 + 4
@@ -29,15 +29,15 @@ c <- a * b
 c <- a**b
 
 
-### TIPO B¡SICO DO OBJETO (MODO)
+### TIPO B√ÅSICO DO OBJETO (MODO)
 
-# numeric: numÈrico
+# numeric: num√©rico
 # integer: inteiro
-# complex: n˙mero complexo
+# complex: n√∫mero complexo
 # character (string): caractere
-# logical (boolean): lÛgicos (True e False)
-# factor: categorias bem definidas. ex: gÍnero (masculino e feminino)
-#                                       estado civil(casado, solteiro, vi˙vo...)
+# logical (boolean): l√≥gicos (True e False)
+# factor: categorias bem definidas. ex: g√™nero (masculino e feminino)
+#                                       estado civil(casado, solteiro, vi√∫vo...)
 #                                       ano (2019, 2020, 2021...)
 y = 2
 mode(y)
@@ -78,7 +78,7 @@ genero <- as.factor(genero)
 genero
 class(genero)
 
-### TIPO B¡SICO DO OBJETO (Comprimento)
+### TIPO B√ÅSICO DO OBJETO (Comprimento)
  
 length(genero)
 
