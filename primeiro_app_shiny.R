@@ -20,7 +20,7 @@ server <- function(input, output) {
     x <- faithful$waiting
     bins = seq(min(x), max(x), length.out = input$bins + 1)
     print(bins)
-    hist(x, breaks = bins, col = '#007700', border = 'red',
+    hist(x, breaks = bins, col = '#007000', border = 'red',
          xlab = 'Esperando tempo para a próxima explosão',
          main = 'Histograma de tempos de espera')
   })
