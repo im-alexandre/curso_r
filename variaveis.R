@@ -60,6 +60,7 @@ complexo
 mode(complexo)
 class(complexo)
 
+
 caractere <- "palavra"
 class(caractere)
 mode(caractere)
